@@ -18,7 +18,7 @@
     ```
 
 4. Create a project, in Google accounts, setup OAuth consent screen and create an OAuthID, by following the video : 
-    [![Watch the video]](https://youtu.be/6bzzpda63H0)
+    [![Watch the video](https://youtu.be/6bzzpda63H0)]
 5. Add a test user in the OAuth consent screen with the requred email id.
 6. Download the credentials as Json file and save as client_secret.json in the project directory.
 7. Add recipient email id by replacing '<recipient_email_id>' in line 16 of send_email.py.
