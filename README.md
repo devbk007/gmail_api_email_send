@@ -22,5 +22,5 @@
 
 5. Add a test user in the OAuth consent screen with the requred email id.
 6. Download the credentials as Json file and save as client_secret.json in the project directory.
-7. Add recipient email id by replacing '<recipient_email_id>' in line 16 of send_email.py.
+7. Add recipient email id by replacing '<recipient_email_id>' in line 16, message in line 14 and subject in line 17 of send_email.py.
 8. Run the command python send_email.py. A prompt screen will appear, if running for the first time. Configure by using the test user email id given in step 5.
