@@ -1,6 +1,6 @@
 # Send email using python with Google Email API
 
-!(ytube thumbnail.png)
+![Sample image](ytube thumbnail.png?raw=true "Title")
 
 1. Create a virtual enviroment
     If using conda , install using the command 
