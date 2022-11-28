@@ -22,10 +22,11 @@
 4. Create a project, in Google accounts, setup OAuth consent screen and create an OAuthID. 
     [![Watch the video for step by step setup]](https://youtu.be/6bzzpda63H0)   
 
-5. Add a test user in the OAuth consent screen with the requred email id.
-6. Download the credentials as Json file and save as client_secret.json in the project directory.
-7. Add recipient email id by replacing '<recipient_email_id>' in line 16, message in line 14 and subject in line 17 of send_email.py.
-8. Run the command python send_email.py. A prompt screen will appear, if running for the first time. Configure by using the test user email id given in step 5.
+5. Add a test user in the OAuth consent screen with the required email id.
+6. Enable the Gmail API.
+7. Download the credentials as Json file and save as client_secret.json in the project directory.
+8. Add recipient email id by replacing '<recipient_email_id>' in line 16, message in line 14 and subject in line 17 of send_email.py.
+9. Run the command python send_email.py. A prompt screen will appear, if running for the first time. Configure by using the test user email id given in step 5.
 
 #### Tip
 If refresh error occur, then delete the token files and rerun.
